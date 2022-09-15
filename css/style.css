@@ -29,6 +29,29 @@ p {
   color: #343a40;
 }
 
+.top-banner{
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.card-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-box li {
+  display: flex;
+  width: 25%;
+}
+
+.card-box li {
+  margin-top: 30px;
+}
+
+.card-box li:nth-child(-n+4) {
+  margin-top: 0;
+}
+
 @media screen and (min-width:576px) {
   .row {
     margin-bottom: 30px;
